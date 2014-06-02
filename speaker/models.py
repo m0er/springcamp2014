@@ -4,6 +4,7 @@ from django.db import models
 class Speaker(models.Model):
 	name = models.CharField(max_length=20)
 	email = models.EmailField(max_length=255)
+	desc = models.TextField()
 
 	def __unicode__(self):
-		return self.name
+		return '%s %s' % (self.name, self.desc)
