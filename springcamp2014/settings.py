@@ -36,6 +36,11 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
+    'south',
+    'springcamp2014',
+    'speaker',
+    'session'
 )
 
 MIDDLEWARE_CLASSES = (
